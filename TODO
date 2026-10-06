@@ -1,0 +1,5 @@
+- [x] Add chapter auto-number
+- [x] Add possibility to add labels and reference it like in latex
+- [x] Check if embedding handles chapter level scaling (header level 1 in embedded file needs to be scaled to level 1 + current in the main file)
+- [x] Add tag (if not exists already) to embed an auto-generated index.
+- [x] Add tag (if not exists already) to get current date time

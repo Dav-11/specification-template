@@ -1,0 +1,7 @@
+# Purpose {#sec:purpose}
+
+Aenean volutpat odio ut enim feugiat dapibus. Nulla venenatis rhoncus diam eget porta. Fusce sed cursus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam dignissim pretium nisl ac tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In eu dui eu diam finibus tincidunt et in nulla. Integer viverra aliquam sapien, sagittis placerat ligula porta maximus. Aliquam tincidunt ante non quam malesuada dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed bibendum accumsan quam, a malesuada nibh maximus vitae. Aliquam vestibulum luctus placerat.
+
+## Goals {#sec:goals}
+
+Maecenas vitae gravida nisi. Pellentesque interdum mi at enim cursus, et bibendum nisi gravida. Ut interdum diam sed libero ultricies pretium. Donec gravida mauris risus, ut mollis ipsum luctus id. Vestibulum convallis sagittis sollicitudin. Vestibulum finibus sollicitudin sapien, quis euismod felis aliquam nec. Phasellus varius tincidunt sollicitudin. Donec sollicitudin sagittis libero non fermentum. Phasellus nunc nisi, congue eget augue in, sagittis aliquet risus. Integer vestibulum ornare massa, id aliquam leo interdum sit amet. Curabitur vitae neque et dui finibus cursus. Sed ex tellus, feugiat eget sem sed, tempor elementum massa. As mentioned in Section \ref{sec:purpose}, the system achieves these goals.
