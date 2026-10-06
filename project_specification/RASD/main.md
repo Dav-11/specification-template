@@ -1,13 +1,14 @@
-# RASD {.unnumbered}
-
 ---
-Title: 
-Author: Terry Jefford, Jake Peralta, Amy Santiago
-Version: 1.0
-Release Date: <!-- @date -->
+title: "RASD"
+subtitle: "Requirement Analysis and Specification Document"
+author:
+  - Terry Jefford
+  - Jake Peralta
+  - Amy Santiago
+version: "1.0"
+date: "<!-- @date -->"
 ---
 
-<!-- @pagebreak -->
 <!-- @toc -->
 <!-- @pagebreak -->
 

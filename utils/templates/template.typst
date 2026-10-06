@@ -1,0 +1,61 @@
+#set text(font: "Helvetica", size: 11pt)
+
+$if(section-numbering)$
+#set heading(numbering: "$section-numbering$")
+$else$
+#set heading(numbering: "1.1")
+$endif$
+
+$if(highlighting-definitions)$
+$highlighting-definitions$
+$endif$
+
+// --- FIRST PAGE: COVER PAGE ---
+#page(header: none, footer: none)[
+  #align(center + horizon)[
+    // Title & Subtitle
+    #text(2.8em, weight: "bold", fill: rgb("1a365d"))[$title$]
+    
+    $if(subtitle)$
+    #v(1.2em)
+    #text(1.4em, fill: rgb("4a5568"))[$subtitle$]
+    $endif$
+
+    #v(4em)
+
+    // Metadata Box with a grid layout
+    #block(
+      stroke: (top: 1pt + rgb("cbd5e0"), bottom: 1pt + rgb("cbd5e0")), 
+      inset: 1.5em,
+      width: 80%
+    )[
+      #grid(
+        columns: (1fr, 1fr),
+        align: (left, right),
+        [
+          $if(author)$
+          *Authors:* \
+          $for(author)$
+          - $author$ \
+          $endfor$
+          $endif$
+        ],
+        [
+          $if(version)$
+          *Version:* $version$ \
+          $endif$
+          $if(date)$
+          *Release Date:* $date$ \
+          $endif$
+        ]
+      )
+    ]
+  ]
+]
+
+// Reset page numbering for document body
+#pagebreak()
+#set page(numbering: "1")
+
+// --- DOCUMENT BODY ---
+$body$
