@@ -6,6 +6,7 @@ This repository should serve as a specification template for projects
 - Python 3
 - GNU make
 - pandoc
+- typst
 
 ## How to use
 
